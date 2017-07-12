@@ -21,7 +21,12 @@
 		<dict>
 			<key>DropOem</key>
 			<true/>
-			
+			<key>EnableC2</key>
+			<true/>
+			<key>EnableC4</key>
+			<true/>
+			<key>EnableC7</key>
+			<true/>
 			<key>Generate</key>
 			<dict>
 				<key>CStates</key>
@@ -32,7 +37,7 @@
 			<key>MinMultiplier</key>
 			<integer>8</integer>
 			<key>UnderVoltStep</key>
-			<string>0</string>
+			<string>1</string>
 		</dict>
 		<key>SortedOrder</key>
 		<array>
@@ -44,11 +49,11 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 kext-dev-mode=1</string>
+		<string>dart=0 nv_disable=1 kext-dev-mode=1</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
-		<string>mac10.11</string>
+		<string>B78F8719-D701-4206-A68E-D10C0460C977</string>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>Secure</key>
@@ -71,8 +76,6 @@
 			<true/>
 			<key>FixOwnership</key>
 			<true/>
-			<key>Inject</key>
-			<false/>
 		</dict>
 	</dict>
 	<key>DisableDrivers</key>
@@ -109,6 +112,8 @@
 		<array>
 			<string>Recovery HD</string>
 			<string>\EFI\BOOT\BOOTX64.EFI</string>
+			<string>E39A2DFA-8819-45BC-985F-D59E2C9BC587</string>
+			<string>7A462BB6-DCE6-4F5A-A9CD-AD8BF5E32C70</string>
 		</array>
 		<key>Mouse</key>
 		<dict>
@@ -135,7 +140,7 @@
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
 		<key>Theme</key>
-		<string>black_green</string>
+		<string>embedded</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -173,7 +178,7 @@
 				<key>Comment</key>
 				<string>Trim Enabler</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				QVBQTEUgU1NE
@@ -189,7 +194,7 @@
 				<key>Comment</key>
 				<string>Second Stage patch</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				AQAAdRc=
@@ -238,6 +243,8 @@
 		<string>MacBookPro11,2</string>
 		<key>SerialNumber</key>
 		<string>C02LV67QFD56</string>
+		<key>SmUUID</key>
+		<string>41C2BC9E-EEBB-F85C-A3CC-6EC21C405C63</string>
 		<key>Trust</key>
 		<false/>
 		<key>Version</key>
